@@ -1,15 +1,10 @@
 import { useEffect, useState } from "react"
 import { BsCartPlus } from "react-icons/bs"
 import { api } from "../../services"
+import { ProductProps } from "../../@types"
 
 
-interface ProductProps {
-    id: number;
-    title: string;
-    description: string;
-    price: number;
-    cover: string;
-}
+
 export const Home = () => {
 
     const [listProduct, setListProduct] = useState<ProductProps[]>([])

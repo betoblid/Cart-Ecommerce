@@ -1,7 +1,7 @@
 import { useContext } from "react"
-import { Context } from "../contexts/CreateContext"
+import { CartContext } from "../contexts/CreateCartContext"
 
 
 export const UseContxt = () => {
-    return useContext(Context)
+    return useContext(CartContext)
 }
