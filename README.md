@@ -1,30 +1,3 @@
-# React + TypeScript + Vite
+# Carrinho de Compras com API Fake JSON Server e Context API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Descrição: Este projeto consiste em um carrinho de compras desenvolvido em uma aplicação web utilizando React.js. A aplicação utiliza uma API falsa fornecida pelo JSON Server para simular dados de produtos. A funcionalidade principal é permitir aos usuários adicionar produtos ao carrinho e visualizar o conteúdo do carrinho em diferentes partes da aplicação. O Context API do React é empregado para fornecer os dados do carrinho para todos os componentes da aplicação de forma eficiente e centralizada.
